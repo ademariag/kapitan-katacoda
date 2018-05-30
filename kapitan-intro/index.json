@@ -17,8 +17,7 @@
       }
     ],
     "intro": {
-      "text": "intro.md",
-      "code": "install.sh"
+      "text": "intro.md"
     },
     "finish": {
       "text": "finish.md"
@@ -29,5 +28,8 @@
   },
   "backend": {
     "imageid": "kubernetes"
+  },
+  "assets": {
+    "client": [{"file": "kapitan", "target": "~/"}]
   }
 }
