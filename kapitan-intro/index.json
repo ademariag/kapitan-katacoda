@@ -21,7 +21,7 @@
     },
     "assets": {
       "client": [{"file": "kapitan", "target": "/root", "chmod": "+x"}],
-      "host0": [{"file": "lapitan" , "target": "/root", "chmod": "+x"}]
+      "host0": [{"file": "kapitan" , "target": "/root", "chmod": "+x"}]
     },
     "finish": {
       "text": "finish.md"
