@@ -20,7 +20,7 @@
       "text": "intro.md"
     },
     "assets": {
-      "client": [{"file": "*" , "target": "/root", "chmod": "+x"}]
+      "client": [{"file": "assets/*" , "target": "/root", "chmod": "+x"}]
     },
     "finish": {
       "text": "finish.md"
