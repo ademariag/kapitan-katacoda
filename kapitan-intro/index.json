@@ -26,7 +26,7 @@
       "client": [
         {
           "file": "test/test.yml",
-          "target": "~/"
+          "target": "~/test2.tml"
         }
       ]
     }
