@@ -4,11 +4,11 @@
   "details": {
     "steps": [
       {
-        "title": "Step 1",
+        "title": "Kapitan command line tool",
         "text": "step1.md"
       },
       {
-        "title": "Step 2",
+        "title": "`kapitan compile`",
         "text": "step2.md"
       },
       {

@@ -1,4 +1,4 @@
-# Compile
+# `kapitan compile`
 
 We have pre-loaded some examples that will help you understand how ***kapitan*** works.
 
