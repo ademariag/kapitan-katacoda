@@ -4,4 +4,6 @@
 
 ***kapitan*** is essentially a tool to compile multiple templates (***`jinja`*** or ***`jsonnet`***) using the ***`inventory`*** as a Single Source of Truth.
 
+Start by running `kapitan` and familiarize with the help output.
+
 
