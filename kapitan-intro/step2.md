@@ -2,28 +2,17 @@
 
 We have pre-loaded some examples that will help you understand how ***kapitan*** works.
 
-***kapitan*** expects a directory structure that looks like this:
+***kapitan*** expects to find several files and directories to work.
+Let's start with the inventory, which by default is found in the `inventory` subfolder.
+In the `inventory/targets` subdirectory, we specify ***"targets"*** which is the unit of deployment for ***kapitan***.
 
 ```
 ├── inventory
-│   ├── classes
-│   │   ├── cluster
-│   │   │   ├── cluster1.yml
-│   │   │   └── cluster2.yml
-│   │   ├── component
-│   │   │   ├── elasticsearch.yml
-│   │   │   ├── nginx.yml
-│   │   │   └── zookeeper.yml
-│   │   └── environment
-│   │       ├── dev.yml
-│   │       └── prod.yml
 │   └── targets
-│       ├── dev-cluster1-elasticsearch.yml
-│       ├── prod-cluster1-elasticsearch.yml
-│       └── prod-cluster2-frontend.yml
-
+│       ├── dev.yml
+│       ├── staging.yml
+│       └── prod.yml
 ```
-
 
 Let's start by running `kapitan compile` and see what happens.
 
