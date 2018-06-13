@@ -14,5 +14,5 @@ In the `inventory/targets` subdirectory, we specify ***"targets"*** which is the
 │       └── prod.yml
 ```
 
-Let's start by running `kapitan compile` and see what happens.
+Let's start by running `kapitan compile`{{execute}} and see what happens.
 
