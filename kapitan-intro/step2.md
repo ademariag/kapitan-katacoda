@@ -2,17 +2,10 @@
 
 We have pre-loaded some examples that will help you understand how ***kapitan*** works.
 
-***kapitan*** expects to find several files and directories to work.
-Let's start with the inventory, which by default is found in the `inventory` subfolder.
-In the `inventory/targets` subdirectory, we specify ***"targets"*** which is the unit of deployment for ***kapitan***.
+Clone the laster repository of Kaputan where you can look at the examples we package. 
 
-```
-├── inventory
-│   └── targets
-│       ├── dev.yml
-│       ├── staging.yml
-│       └── prod.yml
-```
+We will be adding more examples soon.
 
-Let's start by running `kapitan compile`{{execute}} and see what happens.
 
+`git clone https://github.com/deepmind/kapitan.git --depth 1`{{execute}}
+`cd kapitan/examples/kubernetes``{{execute}}
