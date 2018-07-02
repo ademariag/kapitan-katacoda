@@ -8,4 +8,4 @@ We will be adding more examples soon.
 
 
 `git clone https://github.com/deepmind/kapitan.git --depth 1`{{execute}}
-`cd kapitan/examples/kubernetes``{{execute}}
+`cd kapitan/examples/kubernetes`{{execute}}
