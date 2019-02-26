@@ -1,9 +1,10 @@
 # Kapitan command line
 
-***kapitan*** is a tool we have created to help manage Kubernetes deployment. The tool is flexiable and generic so that it can be adapted to more tasks than just Kubernete.
+***kapitan*** is essentially a tool to template files. Things can be anything like a text file, a script, a yaml/json manifest. It was created to manage Kubernetes based deployments but it is flexible enough to be used in completely different contexts.
 
-***kapitan*** is essentially a tool to compile multiple templates (***`jinja`*** or ***`jsonnet`***) using the ***`inventory`*** as a Single Source of Truth.
+Let's start by downloading an example environment:
 
-Start by running `kapitan`{{execute}}  and familiarize with the help output.
+`git clone https://github.com/ramaro/kapitan-examples --depth 1`{{execute}}
+`cd kapitan-examples/examples-3/`{{execute}}
 
 
