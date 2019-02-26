@@ -4,7 +4,7 @@
 
 Let's start by downloading an example environment:
 
-`git clone https://github.com/ramaro/kapitan-examples --depth 1`{{execute}}
-`cd kapitan-examples/examples-3/`{{execute}}
+`git clone https://github.com/ademariag/kapitan-examples --depth 1`{{execute}}
+`cd kapitan-examples/example-3/`{{execute}}
 
 
