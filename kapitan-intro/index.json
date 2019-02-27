@@ -1,6 +1,8 @@
 {
+  "pathwayTitle": "Kapitan bootcamp",
   "title": "Introduction to Kapitan",
   "description": "Step by step guide to grasp basic concepts of Kapitan.",
+  "difficulty": "beginner",
   "details": {
     "steps": [
       {
@@ -16,7 +18,9 @@
     }
   },
   "environment": {
-    "uilayout": "terminal"
+    "uilayout": "terminal",
+    "icon": "fa-kubernetes",
+    "showdashboard": false
   },
   "backend": {
     "imageid": "kubernetes-python-3-6"
