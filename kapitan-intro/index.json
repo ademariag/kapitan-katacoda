@@ -1,6 +1,6 @@
 {
   "title": "Introduction to Kapitan",
-  "description": "Setting up Kapitan",
+  "description": "Step by step guide to grasp basic concepts of Kapitan.",
   "details": {
     "steps": [
       {
@@ -13,18 +13,10 @@
     },
     "finish": {
       "text": "finish.md"
-    },
-    "assets": {
-      "client": [
-        {
-          "file": "test/test.yml",
-          "target": "~/test2.tml"
-        }
-      ]
     }
   },
   "environment": {
-    "uilayout": "editor-terminal"
+    "uilayout": "terminal"
   },
   "backend": {
     "imageid": "kubernetes-python-3-6"
