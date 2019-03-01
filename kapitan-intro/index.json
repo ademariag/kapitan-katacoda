@@ -8,6 +8,22 @@
       {
         "title": "Kapitan command line tool",
         "text": "step1.md"
+      },
+      {
+        "title": "Download the examples",
+        "text": "step2.md"
+      },
+      {
+        "title": "Kapitan compile",
+        "text": "step3.md"
+      },
+      {
+        "title": "Experiment 1: remove a feature",
+        "text": "step4.md"
+      },
+      {
+        "title": "Experiment 2: remove a component",
+        "text": "step5.md"
       }
     ],
     "intro": {
