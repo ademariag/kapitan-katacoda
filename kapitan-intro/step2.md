@@ -1,5 +1,3 @@
-# Download the examples
-
 Blog post: https://medium.com/@alessandro.demaria/adb6a488cd77
 
 Download the examples:
