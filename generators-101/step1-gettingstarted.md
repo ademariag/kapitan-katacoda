@@ -2,7 +2,7 @@
 
 Let's get started by cloning the Kapitan Reference repository
 
-`git clone https://github.com/kapicorp/kapitan-reference.git && cd kapitan-reference.git`{{execute}}
+`git clone https://github.com/kapicorp/kapitan-reference.git && cd kapitan-reference`{{execute}}
 
 Run `./kapitan compile`{{execute}} to make sure that everything is working ok
 
