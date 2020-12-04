@@ -36,7 +36,8 @@
   "environment": {
     "uilayout": "vscode-terminal-split",
     "icon": "fa-kubernetes",
-    "showdashboard": true
+    "hidefinish": true,
+    "showdashboard": false
   },
   "backend": {
     "imageid": "kubernetes-cluster-running:1.18"
