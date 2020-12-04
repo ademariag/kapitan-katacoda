@@ -33,7 +33,11 @@
       "text": "finish.md"
     }
   },
-  "environment": {},
+  "environment": {
+    "uilayout": "terminal",
+    "icon": "fa-kubernetes",
+    "showdashboard": false
+  },
   "backend": {
     "imageid": "minikube-running"
   }
