@@ -27,7 +27,8 @@
       }
     ],
     "intro": {
-      "text": "intro.md"
+      "text": "intro.md",
+      "background": "intro_script.sh"
     },
     "finish": {
       "text": "finish.md"
@@ -36,6 +37,7 @@
   "environment": {
     "uilayout": "vscode-terminal-split",
     "icon": "fa-kubernetes",
+    "uieditorpath": "/scenario",
     "hidefinish": true,
     "showdashboard": false
   },
