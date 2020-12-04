@@ -10,8 +10,9 @@
         "text": "step1-gettingstarted.md"
       },
       {
-        "title": "Step 2",
-        "text": "step2.md"
+        "title": "Creating a new target",
+        "text": "step2-create-target.md",
+        "background": "clear.sh"
       },
       {
         "title": "Step 3",
