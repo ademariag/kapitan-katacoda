@@ -38,7 +38,7 @@
   "environment": {
     "uilayout": "editor-terminal",
     "icon": "fa-kubernetes",
-    "uieditorpath": "/kapitan-reference",
+    "uieditorpath": "kapitan-reference",
     "hideHiddenFiles": true
   },
   "backend": {
