@@ -38,8 +38,7 @@
     "uilayout": "vscode-terminal-split",
     "icon": "fa-kubernetes",
     "uieditorpath": "/scenario",
-    "hidefinish": true,
-    "showdashboard": false
+    "hideHiddenFiles": true
   },
   "backend": {
     "imageid": "kubernetes-cluster-running:1.18"
