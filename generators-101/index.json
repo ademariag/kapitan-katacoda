@@ -15,8 +15,8 @@
         "foreground": "clear.sh"
       },
       {
-        "title": "Step 3",
-        "text": "step3.md"
+        "title": "Generate a deployment",
+        "text": "step3-generate-deployment.md"
       },
       {
         "title": "Step 4",

@@ -13,4 +13,4 @@ You can run `./kapitan compile -t scenario`{{execute}} to compile only the `scen
 
 Notice that in the `compiled/` folder, a `scenario` subfolder appears with some files. 
 
-For instance, `compiled/scenario/pre-deploy/scenario-namespace.yml`{{open}}
+For instance, you can see that Kapitan has already automatically generated a namespace for this target: `compiled/scenario/pre-deploy/scenario-namespace.yml`{{open}}
