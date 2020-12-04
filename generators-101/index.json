@@ -41,6 +41,6 @@
     "hideHiddenFiles": true
   },
   "backend": {
-    "imageid": "kubernetes-cluster-running:1.18"
+    "imageid": "ubuntu:2004"
   }
 }
