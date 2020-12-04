@@ -16,11 +16,13 @@
       },
       {
         "title": "Generate a deployment",
-        "text": "step3-generate-deployment.md"
+        "text": "step3-generate-deployment.md",
+        "foreground": "clear.sh"
       },
       {
-        "title": "Step 4",
-        "text": "step4.md"
+        "title": "Add ports and generate a service",
+        "text": "step4-add-port-service.md",
+        "foreground": "clear.sh"
       },
       {
         "title": "Step 5",
