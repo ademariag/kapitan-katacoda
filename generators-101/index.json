@@ -38,7 +38,7 @@
   "environment": {
     "uilayout": "vscode-terminal-split",
     "icon": "fa-kubernetes",
-    "uieditorpath": "/scenario",
+    "uieditorpath": "/kapitan-reference",
     "hideHiddenFiles": true
   },
   "backend": {

@@ -1,3 +1,2 @@
 #!/bin/bash
-mkdir -p /scenario
-cd /scenario || exit
+mkdir kapitan-reference
