@@ -1,6 +1,6 @@
 {
-  "title": "Introduction to generators",
-  "description": "How to use generators to create Kubernetes manifests",
+  "title": "Introduction to Kapitan Kubernetes Generators",
+  "description": "Learn how to define Kubernetes applications using Generators",
   "difficulty": "Beginner",
   "time": "30",
   "details": {
@@ -34,11 +34,11 @@
     }
   },
   "environment": {
-    "uilayout": "terminal",
+    "uilayout": "vscode-terminal-split",
     "icon": "fa-kubernetes",
-    "showdashboard": false
+    "showdashboard": true
   },
   "backend": {
-    "imageid": "minikube-running"
+    "imageid": "kubernetes-cluster-running:1.18"
   }
 }
