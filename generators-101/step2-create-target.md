@@ -1,4 +1,4 @@
-Let's create a new target `scenario`, which is a way to tell Kapitan that we want to work on a new project.
+Let's create a new target `inventory/targets/scenario.yml`{{open}}, which is a way to tell Kapitan that we want to work on a new project.
 
 The file will import the class `common` with the essential boilerplate needed to get you started
 <pre class="file" data-filename="inventory/targets/scenario.yml" data-target="replace">
@@ -13,4 +13,4 @@ You can run `./kapitan compile -t scenario`{{execute}} to compile only the `scen
 
 Notice that in the `compiled/` folder, a `scenario` subfolder appears with some files. 
 
-For instance, `compiles/scenario/pre-deploy/scenario-namespace.yml`{{open}}
+For instance, `compiled/scenario/pre-deploy/scenario-namespace.yml`{{open}}
