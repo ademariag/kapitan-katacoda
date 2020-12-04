@@ -6,8 +6,8 @@
   "details": {
     "steps": [
       {
-        "title": "Step 1",
-        "text": "step1.md"
+        "title": "Getting started",
+        "text": "step1-gettingstarted.md"
       },
       {
         "title": "Step 2",

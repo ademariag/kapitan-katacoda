@@ -1,3 +1,3 @@
 #!/bin/bash
 mkdir -p /scenario
-cd /scenario
+cd /scenario || exit
