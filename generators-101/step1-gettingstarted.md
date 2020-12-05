@@ -1,3 +1,4 @@
+ Clone the example repository
 Let's get started by cloning the Kapitan Reference repository
 
 `git clone https://github.com/kapicorp/kapitan-reference.git kapitan-reference && cd kapitan-reference`{{execute}}
@@ -26,4 +27,5 @@ We will also be using git during this exercise, please make sure you run the fol
 ```
  git config --global user.name "Kapitan User"
  git config --global user.email "user@kapicorp.com"
+ git config --global --replace-all core.pager "less -F -X"
 ```{{execute}}

@@ -1,6 +1,6 @@
 We now want to ask Kapitan to generate for us a new deployment. 
 
-For instance, from the example at https://kubernetes.io/docs/tasks/run-application/run-stateless-application-deployment/, let's try to generate an nginx deployment.
+For instance, from the example at [run-stateless-application-deployment](https://kubernetes.io/docs/tasks/run-application/run-stateless-application-deployment/), let's try to generate an `nginx` Deployment.
 
 > **Note** At first, we will "inline" the configuration directly in the target for simplicity. Soon we will see how to create reusable classes.
 
