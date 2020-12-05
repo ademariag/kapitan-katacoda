@@ -7,7 +7,7 @@ classes:
   - common
 
 parameters:
-
+  # Override parameters
 </pre>
 
 You can run `./kapitan compile -t scenario`{{execute}} to compile only the `scenario` target

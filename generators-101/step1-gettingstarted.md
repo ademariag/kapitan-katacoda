@@ -27,5 +27,4 @@ We will also be using git during this exercise, please make sure you run the fol
 ```
  git config --global user.name "Kapitan User"
  git config --global user.email "user@kapicorp.com"
- git config --global --replace-all core.pager "less -F -X"
 ```{{execute}}

@@ -25,8 +25,8 @@
         "foreground": "clear.sh"
       },
       {
-        "title": "Step 5",
-        "text": "step5.md"
+        "title": "Move the component to a class",
+        "text": "step5-move-to-class.md"
       }
     ],
     "intro": {

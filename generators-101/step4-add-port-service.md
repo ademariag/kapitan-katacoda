@@ -17,7 +17,7 @@ parameters:
 
 Once again, recompile your target with `./kapitan compile -t scenario`{{execute}} and check again `compiled/scenario/manifests/nginx-bundle.yml`{{open}}.
 
-`git diff`{{execute}} will also give you a quick overview
+`git --no-pager diff`{{execute}} will also give you a quick overview
 `git commit -a -m 'Added port to deployment nginx'`{{execute}}
 
 # Generating a Service resource 
@@ -44,7 +44,7 @@ parameters:
 Compile your target with `./kapitan compile -t scenario`{{execute}} and check again `compiled/scenario/manifests/nginx-bundle.yml`{{open}}.
 
 On the command line, you can run:
-`git diff`{{execute}}
+`git --no-pager diff`{{execute}}
 
 This time you will find that the file also contains a Service resource created for the deployment.
 
