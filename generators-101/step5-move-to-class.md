@@ -27,3 +27,6 @@ parameters:
 
 Compile with `./kapitan compile -t scenario`{{execute}}
 Notice with `git --no-pager diff compiled`{{execute}} that nothing has changed in the compiled folder.
+
+> :star: This change shows an important aspect of using Kapitan. You are *encouraged* to refactor often your templates or inventory files because you can always easily assess the impact of your changes by looking at the compiled folder.
+> This opens up for a way of managing your changes that we call "micro-changes".
