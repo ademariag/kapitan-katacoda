@@ -26,7 +26,13 @@
       },
       {
         "title": "Move the component to a class",
-        "text": "step5-move-to-class.md"
+        "text": "step5-move-to-class.md",
+        "foreground": "clear.sh"
+      },
+      {
+        "title": "Add a configuration file",
+        "text": "step6-add-config-file.md",
+        "foreground": "clear.sh"
       }
     ],
     "intro": {
