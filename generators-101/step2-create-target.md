@@ -16,7 +16,7 @@ Notice that in the `compiled/` folder, a `scenario` subfolder appears with some 
 
 For instance, you can see that Kapitan has already automatically generated a namespace for this target: `compiled/scenario/pre-deploy/scenario-namespace.yml`{{open}}
 
-# Add everything to git
+# Add your changes to git
 As Kapitan saves the compiled files in the compiled folder, you can use git to easily see how Kapitan modifies your targets as we go.
 
 Add all the created file to a commit 
