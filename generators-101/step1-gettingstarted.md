@@ -3,9 +3,9 @@ Let's get started by cloning the Kapitan Reference repository
 
 `git clone https://github.com/kapicorp/kapitan-reference.git kapitan-reference && cd kapitan-reference`{{execute}}
 
-Run `./kapitan --version`{{execute}} to force the download of the docker image and to make sure that everything is working ok
+Run `./kapitan --version`{{execute}} to check what version you are running. Check on https://kapitan.dev to see if a new version has been released and to find more documentation.
 
-> **Note**: this might take some time while the docker image gets downloaded
+> **Note**: Kapitan in this example runs from a docker container. The first time you run kapitan it might take some time while the docker image gets downloaded.
 
 You can now run `./kapitan compile`{{execute}} to compile all the targets in this repository.
 

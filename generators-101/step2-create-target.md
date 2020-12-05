@@ -23,11 +23,15 @@ Add all the created file to a commit
 `git add .; git commit -m 'Initial commit for scenario target'`{{execute}}
 
 # Learn more
-> Kapitan uses targets to group configurations for the same project. 
+> Kapitan uses `targets` to group configurations for the same project. 
 > 
-> The target will have a `classes` section where you can import *classes* which are fragments of YAML.  Making modifications to a class affects all targets that import that class.
+> The `target` files live in `inventory/targets`. 
 > 
-> You can then override anything you want in the parameters section. Making modifications to the parameters section will only impact the current target. 
+> Each `target` will have a `classes` section and a `parameters` section.
+> 
+> A `target` can import multiple classes, which are yaml files in which you can define your configuration in a way that can be shared across targets. 
+> 
+> Once all classes have been imported, you can then override anything you want in the parameters section. Making modifications to the parameters section will only impact the current target. 
 
 
 >Have a look at the `inventory/targets` folder to see other examples.
