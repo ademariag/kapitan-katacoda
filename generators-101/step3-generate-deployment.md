@@ -19,3 +19,12 @@ run again `./kapitan compile -t scenario`{{execute}} and notice that the `compil
 As you can see, the deployment file is already very similar to the example we are following, with some extras.
 
 One thing missing is the container port definition. Let's see how we can add it in the next step.
+
+# Check git
+Before you continue, check with `git` how easy is to track what Kapitan does to your files
+
+`git status`{{execute}}
+
+Add the new files to git to make the next steps easier to evaluate.
+
+`git add .; git commit -m 'Added nginx deployment'`{{execute}}

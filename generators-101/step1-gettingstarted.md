@@ -7,6 +7,7 @@ Run `./kapitan --version`{{execute}} to force the download of the docker image a
 > **Note**: this might take some time while the docker image gets downloaded
 
 You can now run `./kapitan compile`{{execute}} to compile all the targets in this repository.
+
 As you can see, this reference repository comes already pre-installed with a huge amount of examples, which you can see being compiled by Kapitan
 
 ```
