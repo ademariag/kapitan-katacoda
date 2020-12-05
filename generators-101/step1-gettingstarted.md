@@ -20,11 +20,3 @@ Compiled prod-sockshop (4.00s)
 Compiled dev-sockshop (3.52s)
 ```
 > **Note** the list might change as we add more examples
-
-# Git setup
-We will also be using git during this exercise, please make sure you run the following commands to set it up properly:
-
-```
- git config --global user.name "Kapitan User"
- git config --global user.email "user@kapicorp.com"
-```{{execute}}
