@@ -49,3 +49,17 @@ On the command line, you can run:
 This time you will find that the file also contains a Service resource created for the deployment.
 
 `git commit -a -m 'Added service to deployment nginx'`{{execute}}
+
+# Learn more
+> A generator reacts to the configuration of a specific inventory subpath. 
+> 
+> For instance, Kubernetes manifests react to "components" being added under the `components` section.
+> ```
+> parameters:
+>   components:
+>     [component name]:
+>       [component configuration]
+>```
+> **KEY POINT**: It does not matter that these configurations are in the same file. They can be scattered in multiple classes, as long as the final rendered inventory matches the desired configuration.
+> 
+> Using the power of the `inventory` you can for instance have an `nginx` class to define the basic component, and a `production` class to add changes to nginx to set production only settings.
