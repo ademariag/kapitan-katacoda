@@ -23,3 +23,8 @@ Let's add a config_maps file to the nginx component.
                 }
 </pre>
 
+As you can see, we've asked the generator to create a configmap containing a file called `nginx.conf` and to mount it under the `/etc/nginx/conf.d`.
+
+Run `./kapitan compile -t scenario`{{execute}} and then check the newly created file `compiled/scenario/manifests/nginx-config.yml`{{open}}
+
+
