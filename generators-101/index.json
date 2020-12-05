@@ -38,7 +38,7 @@
     }
   },
   "environment": {
-    "uilayout": "vscode-terminal-split",
+    "uilayout": "editor-terminal",
     "icon": "fa-kubernetes",
     "uieditorpath": "kapitan-reference",
     "hideHiddenFiles": true
