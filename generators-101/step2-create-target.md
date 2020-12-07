@@ -5,7 +5,7 @@ The file will import the class `common` with the essential boilerplate needed to
 <pre class="file" data-filename="inventory/targets/scenario.yml" data-target="replace">
 classes:
   - common
-  - projects.localhost.kubernetes.katacoda  # Generate katacoda k8s context 
+  - projects.localhost.kubernetes.katacoda
 
 parameters:
   # Override parameters

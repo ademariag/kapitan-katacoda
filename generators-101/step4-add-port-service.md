@@ -4,6 +4,7 @@ We can easily add a port by modifying the nginx component and adding a 'ports' s
 <pre class="file" data-filename="inventory/targets/scenario.yml" data-target="replace">
 classes:
   - common
+  - projects.localhost.kubernetes.katacoda
 
 parameters:
   components:
@@ -27,6 +28,7 @@ Let's create one by adding the "service" configuration
 <pre class="file" data-filename="inventory/targets/scenario.yml" data-target="replace">
 classes:
   - common
+  - projects.localhost.kubernetes.katacoda
 
 parameters:
   components:

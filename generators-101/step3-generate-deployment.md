@@ -5,7 +5,7 @@ For instance, from the example at [run-stateless-application-deployment](https:/
 <pre class="file" data-filename="inventory/targets/scenario.yml" data-target="replace">
 classes:
   - common
-  - projects.localhost.kubernetes.katacoda  # Generate katacoda k8s context
+  - projects.localhost.kubernetes.katacoda
 
 parameters:
   components:

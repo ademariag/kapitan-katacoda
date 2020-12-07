@@ -19,6 +19,7 @@ The target file becomes now much cleaner, and we can add the class to make sure 
 <pre class="file" data-filename="inventory/targets/scenario.yml" data-target="replace">
 classes:
   - common
+  - projects.localhost.kubernetes.katacoda
   - components.nginx
 
 parameters:
