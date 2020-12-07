@@ -5,6 +5,7 @@ The file will import the class `common` with the essential boilerplate needed to
 <pre class="file" data-filename="inventory/targets/scenario.yml" data-target="replace">
 classes:
   - common
+  - projects.localhost.kubernetes.katacoda  # Generate katacoda k8s context 
 
 parameters:
   # Override parameters
@@ -15,6 +16,8 @@ You can run `./kapitan compile -t scenario`{{execute}} to compile only the `scen
 Notice that in the `compiled/` folder, a `scenario` subfolder appears with some files. 
 
 For instance, you can see that Kapitan has already automatically generated a namespace for this target: `compiled/scenario/pre-deploy/scenario-namespace.yml`{{open}}
+
+Go ahead and deploy. Simply run `./compiled/scenario/scripts/apply.sh`{{execute}}
 
 # Add your changes to git
 As Kapitan saves the compiled files in the compiled folder, you can use git to easily see how Kapitan modifies your targets as we go.

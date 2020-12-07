@@ -5,6 +5,7 @@ For instance, from the example at [run-stateless-application-deployment](https:/
 <pre class="file" data-filename="inventory/targets/scenario.yml" data-target="replace">
 classes:
   - common
+  - projects.localhost.kubernetes.katacoda  # Generate katacoda k8s context
 
 parameters:
   components:
@@ -15,6 +16,9 @@ parameters:
 
 run again `./kapitan compile -t scenario`{{execute}} and notice that the `compiled/scenario/manifests/nginx-bundle.yml`{{open}} has appeared.
 As you can see, the deployment file is already very similar to the example we are following, with some extras.
+
+Go ahead and deploy. Simply run `./compiled/scenario/scripts/apply.sh`{{execute}}
+You can see the pods running using `./compiled/scenario/scripts/kubectl.sh get pods`{{execute}}
 
 One thing missing is the container port definition. Let's see how we can add it in the next step.
 

@@ -5,11 +5,9 @@ Let's get started by cloning the Kapitan Reference repository
 
 Run `./kapitan --version`{{execute}} to check what version you are running. Check on https://kapitan.dev to see if a new version has been released and to find more documentation.
 
-> **Note**: Kapitan in this example runs from a docker container. The first time you run kapitan it might take some time while the docker image gets downloaded.
+Run `./kapitan compile`{{execute}} to compile all the other examples already present in this repository.
 
-You can now run `./kapitan compile`{{execute}} to compile all the targets in this repository.
-
-As you can see, this reference repository comes already pre-installed with a huge amount of examples, which you can see being compiled by Kapitan
+As you can see, this reference repository comes already pre-installed with a good amount of examples, which you can see being compiled by Kapitan
 
 ```
 Compiled global (1.68s)
@@ -19,4 +17,3 @@ Compiled sock-shop (5.41s)
 Compiled prod-sockshop (4.00s)
 Compiled dev-sockshop (3.52s)
 ```
-> **Note** the list might change as we add more examples
