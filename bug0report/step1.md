@@ -1,5 +1,5 @@
 # 1: create the path
-`cd mkdir -p inventory/targets`{{execute}}
+`mkdir -p inventory/targets`{{execute}}
 
 # 2: create a file
 <pre class="file" data-filename="inventory/targets/example" data-target="replace">
