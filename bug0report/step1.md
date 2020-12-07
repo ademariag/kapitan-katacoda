@@ -3,7 +3,7 @@
 `git clone https://github.com/kapicorp/kapitan-reference.git kapitan-reference && cd kapitan-reference`{{execute}}
 
 # Option 2: create the path
-`mkdir -p inventory/targets`{{execute}}
+`cd kapitan-reference && mkdir -p inventory/targets`{{execute}}
 
 # create a file
 <pre class="file" data-filename="inventory/targets/example" data-target="replace">
