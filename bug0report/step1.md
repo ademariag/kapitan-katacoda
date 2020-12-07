@@ -3,7 +3,7 @@
 
 # 2: create a file
 <pre class="file" data-filename="inventory/targets/example" data-target="replace">
-this works
+this is actually being saved
 </pre>
 
 # 3: open another file
@@ -13,7 +13,7 @@ this works
 
 # 4: update file `example` without selecting it in the UI
 <pre class="file" data-filename="inventory/targets/example" data-target="replace">
-this does not work
+this is not actually being saved
 </pre>
 
 # 5. select the file `inventory/targets/example`{{open}} in the editor
