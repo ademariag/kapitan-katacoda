@@ -19,7 +19,9 @@
     }
   },
   "environment": {
-    "uilayout": "editor-terminal"
+    "uilayout": "editor-terminal",
+    "uieditorpath": "kapitan-reference",
+    "hideHiddenFiles": true
   },
   "backend": {
     "imageid": "ubuntu1904"
