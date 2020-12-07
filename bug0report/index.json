@@ -19,7 +19,6 @@
   },
   "environment": {
     "uilayout": "editor-terminal",
-    "uieditorpath": "kapitan-reference",
     "hideHiddenFiles": true
   },
   "backend": {
