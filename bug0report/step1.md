@@ -1,5 +1,5 @@
 # 1: create the path
-`cd kapitan-reference && mkdir -p inventory/targets`{{execute}}
+`cd mkdir -p inventory/targets`{{execute}}
 
 # 2: create a file
 <pre class="file" data-filename="inventory/targets/example" data-target="replace">
