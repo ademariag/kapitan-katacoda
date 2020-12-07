@@ -1,6 +1,9 @@
 
+# clone a repository 
+`git clone https://github.com/kapicorp/kapitan-reference.git kapitan-reference && cd kapitan-reference`{{execute}}
+
 # create a file
-<pre class="file" data-filename="example" data-target="replace">
+<pre class="file" data-filename="inventory/target/example" data-target="replace">
 this works
 </pre>
 
@@ -8,9 +11,9 @@ this works
 `another_file.txt`{{open}}
 
 # update file `example` without selecting it in the UI
-<pre class="file" data-filename="example" data-target="replace">
+<pre class="file" data-filename="inventory/target/example" data-target="replace">
 this does not work
 </pre>
 
 # Check on the command line that the file has not been updated
-`cat example`{{execute}}
+`cat inventory/target/example`{{execute}}
