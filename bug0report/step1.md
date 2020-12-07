@@ -19,4 +19,4 @@ this does not work
 </pre>
 
 # Check on the command line that the file has not been updated
-`cat inventory/targetsπ/example`{{execute}}
+`cat inventory/targets/example`{{execute}}
