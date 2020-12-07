@@ -3,7 +3,7 @@
 
 # 2: create a file
 <pre class="file" data-filename="inventory/targets/example" data-target="replace">
-this is actually being saved
+this is being saved
 </pre>
 
 # 3: open another file
