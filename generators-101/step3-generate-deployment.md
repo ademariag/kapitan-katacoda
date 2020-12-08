@@ -27,14 +27,10 @@ The typical Kapitan workflow is to make your changes and to run the following th
 
 **check** `./compiled/scenario/scripts/kubectl.sh get pods`{{execute}}
 
-# Check git
-Before you continue, check with `git` how easy is to track what Kapitan does to your files
+**git status** `git status`{{execute}}
+> As Kapitan saves the compiled files in the compiled folder, you can use git to easily see how Kapitan modifies your targets as we go.
 
-`git status`{{execute}}
-
-Add the new files to git to make the next steps easier to evaluate.
-
-`git add .; git commit -m 'Added nginx deployment'`{{execute}}
+**git commit** `git add .; git commit -m 'Added nginx deployment'`{{execute}}
 
 # Learn more
 

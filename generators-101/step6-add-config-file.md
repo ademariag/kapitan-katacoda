@@ -32,3 +32,7 @@ As you can see, we've asked the generator to create a configmap containing a fil
 
 **check** `./compiled/scenario/scripts/kubectl.sh get all`{{execute}}
 
+**git diff** `git --no-pager diff compiled`{{execute}}
+> As Kapitan saves the compiled files in the compiled folder, you can use git to easily see how Kapitan modifies your targets as we go.
+
+**git commit** `git add .; git commit -m 'Added configmap to deployment nginx'`{{execute}}

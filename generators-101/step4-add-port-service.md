@@ -59,12 +59,10 @@ Same again:
 
 **check** `./compiled/scenario/scripts/kubectl.sh get services`{{execute}}
 
-On the command line, you can run:
-`git --no-pager diff compiled`{{execute}}
+**git diff** `git --no-pager diff compiled`{{execute}}
+> As Kapitan saves the compiled files in the compiled folder, you can use git to easily see how Kapitan modifies your targets as we go.
 
-This time you will find that the file also contains a Service resource created for the deployment.
-
-`git commit -a -m 'Added service to deployment nginx'`{{execute}}
+**git commit** `git add .; git commit -m 'Added service to deployment nginx'`{{execute}}
 
 # Learn more
 > A generator reacts to the configuration of a specific inventory subpath. 
