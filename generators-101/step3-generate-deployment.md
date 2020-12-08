@@ -14,13 +14,16 @@ parameters:
       replicas: 2
 </pre>
 
-run again `./kapitan compile -t scenario`{{execute}} and notice that the `compiled/scenario/manifests/nginx-bundle.yml`{{open}} has appeared.
-As you can see, the deployment file is already very similar to the example we are following, with some extras.
+You will get used to run always these commands:
 
-Go ahead and deploy. Simply run `./compiled/scenario/scripts/apply.sh`{{execute}}
-You can see the pods running using `./compiled/scenario/scripts/kubectl.sh get pods`{{execute}}
+**compile** `./kapitan compile -t scenario`{{execute}}
+> check again `compiled/scenario/manifests/nginx-bundle.yml`{{open}}.
+> As you can see, the deployment file is already very similar to the example we are following, with some extras.
+> One thing missing is the container port definition. Next we see how we can add it in the next step.
 
-One thing missing is the container port definition. Let's see how we can add it in the next step.
+**deploy** `./compiled/scenario/scripts/apply.sh`{{execute}}
+
+See the pods running using `./compiled/scenario/scripts/kubectl.sh get pods`{{execute}}
 
 # Check git
 Before you continue, check with `git` how easy is to track what Kapitan does to your files

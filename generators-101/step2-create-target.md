@@ -11,6 +11,17 @@ parameters:
   # Override parameters
 </pre>
 
+You will get used to run always these commands:
+
+**compile** `./kapitan compile -t scenario`{{execute}}
+> check again `compiled/scenario/manifests/nginx-bundle.yml`{{open}}.
+> As you can see, the deployment file is already very similar to the example we are following, with some extras.
+> One thing missing is the container port definition. Next we see how we can add it in the next step.
+
+**deploy** `./compiled/scenario/scripts/apply.sh`{{execute}}
+
+See the pods running using `./compiled/scenario/scripts/kubectl.sh get pods`{{execute}}
+
 You can run `./kapitan compile -t scenario`{{execute}} to compile only the `scenario` target
 
 Notice that in the `compiled/` folder, a `scenario` subfolder appears with some files. 

@@ -16,7 +16,14 @@ parameters:
           container_port: 80
 </pre>
 
-Once again, recompile your target with `./kapitan compile -t scenario`{{execute}} and check again `compiled/scenario/manifests/nginx-bundle.yml`{{open}}.
+Once again:
+
+**compile** `./kapitan compile -t scenario`{{execute}}
+> check again `compiled/scenario/manifests/nginx-bundle.yml`{{open}}.
+
+**deploy** `./compiled/scenario/scripts/apply.sh`{{execute}}
+
+See the pods running using `./compiled/scenario/scripts/kubectl.sh get pods`{{execute}}
 
 `git --no-pager diff compiled`{{execute}} will also give you a quick overview of what changed in the compiled directory.
 `git commit -a -m 'Added port to deployment nginx'`{{execute}}
@@ -43,7 +50,14 @@ parameters:
           service_port: 80   # Without this the port would not be exposed
 </pre>
 
-Compile your target with `./kapitan compile -t scenario`{{execute}} and check again `compiled/scenario/manifests/nginx-bundle.yml`{{open}}.
+Same again:
+
+**compile** `./kapitan compile -t scenario`{{execute}}
+> check again `compiled/scenario/manifests/nginx-bundle.yml`{{open}}.
+
+**deploy** `./compiled/scenario/scripts/apply.sh`{{execute}}
+
+See the service running using `./compiled/scenario/scripts/kubectl.sh get services`{{execute}}
 
 On the command line, you can run:
 `git --no-pager diff compiled`{{execute}}
