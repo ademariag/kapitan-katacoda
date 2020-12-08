@@ -8,7 +8,6 @@ classes:
   - projects.localhost.kubernetes.katacoda
 
 parameters:
-  # Override parameters
 </pre>
 
 You will get used to run always these commands:
