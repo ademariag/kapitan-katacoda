@@ -26,8 +26,11 @@ parameters:
   # Override parameters
 </pre>
 
-Compile with `./kapitan compile -t scenario`{{execute}}
-Notice with `git --no-pager diff compiled`{{execute}} that nothing has changed in the compiled folder.
+**compile** `./kapitan compile -t scenario`{{execute}}
+
+> Notice with `git --no-pager diff compiled`{{execute}} that nothing has changed in the compiled folder.
+> For this reason, it is pointless to apply the changes as have a strong guarantee that nothing has changed.
+
 
 # Learn more
 > **KEY POINT**: This change shows an important aspect of using Kapitan. You are *encouraged* to refactor often your templates or inventory files because you can always easily assess the impact of your changes by looking at the compiled folder. No changes to the compiled folder already give you the green light!

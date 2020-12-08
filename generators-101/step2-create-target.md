@@ -13,21 +13,14 @@ parameters:
 You will get used to run always these commands:
 
 **compile** `./kapitan compile -t scenario`{{execute}}
-> check again `compiled/scenario/manifests/nginx-bundle.yml`{{open}}.
-> As you can see, the deployment file is already very similar to the example we are following, with some extras.
-> One thing missing is the container port definition. Next we see how we can add it in the next step.
+> Notice that in the `compiled/` folder, a `scenario` subfolder appears with some files. 
+> For instance, you can see that Kapitan has already automatically generated a namespace for this target: `compiled/scenario/pre-deploy/scenario-namespace.yml`{{open}}
 
 **deploy** `./compiled/scenario/scripts/apply.sh`{{execute}}
 
-See the pods running using `./compiled/scenario/scripts/kubectl.sh get pods`{{execute}}
-
-You can run `./kapitan compile -t scenario`{{execute}} to compile only the `scenario` target
-
-Notice that in the `compiled/` folder, a `scenario` subfolder appears with some files. 
-
-For instance, you can see that Kapitan has already automatically generated a namespace for this target: `compiled/scenario/pre-deploy/scenario-namespace.yml`{{open}}
-
-Go ahead and deploy. Simply run `./compiled/scenario/scripts/apply.sh`{{execute}}
+**check** `./compiled/scenario/scripts/kubectl.sh get pods`{{execute}}
+> Kapitan can use the data it has to also compile scripts. As you can see, the `kubectl.sh` file works out fo the box
+> because it is able to fetch the cluster information from the class `projects.localhost.kubernetes.katacoda`
 
 # Add your changes to git
 As Kapitan saves the compiled files in the compiled folder, you can use git to easily see how Kapitan modifies your targets as we go.

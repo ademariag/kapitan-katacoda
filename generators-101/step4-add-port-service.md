@@ -57,7 +57,7 @@ Same again:
 
 **deploy** `./compiled/scenario/scripts/apply.sh`{{execute}}
 
-See the service running using `./compiled/scenario/scripts/kubectl.sh get services`{{execute}}
+**check** `./compiled/scenario/scripts/kubectl.sh get services`{{execute}}
 
 On the command line, you can run:
 `git --no-pager diff compiled`{{execute}}
