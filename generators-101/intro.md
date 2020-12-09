@@ -9,5 +9,6 @@ In this module you will learn:
 * How to generate a Deployment resource
 * How to expose ports using a Service resource
 * How to add a ConfigMap
-* How to add a Secret
 * How to use `git` to keep track of your changes
+
+Learn more on https://kapitan.dev and [keep your ship together](https://medium.com/kapitan-blog/keep-your-ship-together-with-kapitan-d82d441cc3e7)
